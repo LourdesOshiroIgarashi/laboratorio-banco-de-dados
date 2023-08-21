@@ -10,8 +10,6 @@ CREATE SEQUENCE alunoid;
 INSERT INTO aluno (nome)
 values ('Tiago'), ('Lourdes'), ('Vinicius'), ('Lívia'), ('Gustavo');
 
-INSERT INTO aluno (nome) values ('aluno1');
-
 select * from aluno;
 
 DROP TABLE ALUNO;
